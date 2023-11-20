@@ -4,28 +4,28 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Joel",
-    avatar: "J",
+    name: "Ali M.",
+    avatar: "A",
     title: "Software Engineer",
     description: "This is the best application I've ever used!",
   },
   {
-    name: "Antonio",
-    avatar: "A",
-    title: "Designer",
-    description: "I use this daily for generating new photos!",
+    name: "Baydaa O.",
+    avatar: "B",
+    title: "UI/UX Designer",
+    description: "BrainerAI is incredible! My husband, the genius behind it, told me to say this. Honestly, I have no idea what it does, but he's convinced it's changing the world. 😄 #LoveYouBot",
   },
   {
-    name: "Mark",
-    avatar: "M",
-    title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
+    name: "Yaman N.",
+    avatar: "Y",
+    title: "Dog Owner",
+    description: "BrainerAI is hands down the most powerful project I've ever seen! Ali didn't even ask for permission to review, but I'd say it's pretty impressive. 💻🚀 #YamanOff",
   },
   {
-    name: "Mary",
-    avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    name: "Tareq Z.",
+    avatar: "T",
+    title: "Socks Owner",
+    description: "BrainerAI sounds interesting. As soon as my socks appear 😂🧦, I'll dive into it and maybe genrates some anime backgrounds. #SocksSearcher",
   },
 ];
 

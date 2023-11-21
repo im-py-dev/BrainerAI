@@ -7,7 +7,7 @@ const testimonials = [
     name: "Ali M.",
     avatar: "A",
     title: "Software Engineer",
-    description: "This is the best application I've ever used!",
+    description: "This application showcase my skills. in this project I used: React.js, Next.js 14, Tailwind, Prisma, MySQL, Javascript, TypeScript, HTML5, CSS3, and more!"
   },
   {
     name: "Baydaa O.",

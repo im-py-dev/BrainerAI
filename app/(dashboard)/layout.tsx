@@ -2,6 +2,8 @@ import Navbar from "@/components/navbar";
 import { Sidebar } from "@/components/sidebar";
 import { checkSubscription } from "@/lib/subscription";
 import { getApiLimitCount } from "@/lib/api-limit";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { AlertCircle } from "lucide-react";
 
 const DashboardLayout = async ({
   children,
@@ -18,6 +20,18 @@ const DashboardLayout = async ({
       </div>
       <main className="md:pl-72 pb-10">
         <Navbar />
+
+        <div className="mb-8 space-y-4 px-4 md:px-20 lg:px-32">
+          <h2 className="text-2xl md:text-4xl font-bold text-center">
+            <Alert variant="destructive" className="mx-4 mt-4">
+              <AlertCircle className="h-4 w-4" />
+              <AlertDescription>
+                The services are not working currently as we don't have active API integrations.
+              </AlertDescription>
+            </Alert>
+          </h2>
+        </div>
+
         {children}
       </main>
     </div>

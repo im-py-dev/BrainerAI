@@ -26,7 +26,7 @@ const DashboardLayout = async ({
             <Alert variant="destructive" className="mx-4 mt-4">
               <AlertCircle className="h-4 w-4" />
               <AlertDescription>
-                The services are not working currently as we don't have active API integrations.
+                The services are not working currently as we don&apos;t have active API integrations.
               </AlertDescription>
             </Alert>
           </h2>
